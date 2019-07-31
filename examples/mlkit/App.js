@@ -2,7 +2,7 @@
 import React from 'react';
 import { StyleSheet, Text, View, TouchableOpacity, Slider } from 'react-native';
 // eslint-disable-next-line import/no-unresolved
-import { RNCamera } from 'react-native-camera';
+import { RNCamera } from 'react-native-camera-mlkit';
 
 const flashModeOrder = {
   off: 'on',

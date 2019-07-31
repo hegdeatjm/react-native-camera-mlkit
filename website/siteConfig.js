@@ -26,8 +26,8 @@ const siteConfig = {
   tagline: 'The comprehensive camera module for React Native.',
 
   //url: 'https://react-native-community/github.io', // Your website URL
-  baseUrl: '/react-native-camera/',
-  projectName: 'react-native-camera',
+  baseUrl: '/react-native-camera-mlkit/',
+  projectName: 'react-native-camera-mlkit',
   organizationName: 'react-native-community',
 
   headerLinks: [
@@ -36,7 +36,7 @@ const siteConfig = {
     { doc: 'api', label: 'API' },
     { page: 'docs/qa', label: 'Help' },
     {
-      href: 'https://github.com/react-native-community/react-native-camera',
+      href: 'https://github.com/react-native-community/react-native-camera-mlkit',
       label: 'GitHub',
     },
   ],
@@ -95,11 +95,11 @@ const siteConfig = {
 
   // Show documentation's last update time.
   enableUpdateTime: true,
-  editUrl: 'https://github.com/react-native-community/react-native-camera/master/docs/',
+  editUrl: 'https://github.com/react-native-community/react-native-camera-mlkit/master/docs/',
 
   // You may provide arbitrary config keys to be used as needed by your
   // template. For example, if you need your repo's URL...
-  repoUrl: 'https://github.com/react-native-community/react-native-camera',
+  repoUrl: 'https://github.com/react-native-community/react-native-camera-mlkit',
 };
 
 module.exports = siteConfig;

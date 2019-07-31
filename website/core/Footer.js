@@ -45,7 +45,7 @@ class Footer extends React.Component {
             <h5>Community</h5>
             <a href={this.pageUrl('users.html', this.props.language)}>User Showcase</a>
             <a
-              href="https://stackoverflow.com/questions/tagged/react-native-camera"
+              href="https://stackoverflow.com/questions/tagged/react-native-camera-mlkit"
               target="_blank"
               rel="noreferrer noopener"
             >

@@ -23,7 +23,7 @@ about: Create a report to help us improve
 
 - Android:
 - iOS:
-- react-native-camera:
+- react-native-camera-mlkit:
 - react-native:
 - react:
   <!---react-navigation:-->
@@ -41,12 +41,12 @@ about: Create a report to help us improve
 <!--describe how to produce the error below-->
 
 <!--**Does it work with Expo Camera?**-->
-<!--Check usage with Expo and comment in this section- https://github.com/react-native-community/react-native-camera/blob/master/docs/Expo_Usage.md
+<!--Check usage with Expo and comment in this section- https://github.com/react-native-community/react-native-camera-mlkit/blob/master/docs/Expo_Usage.md
 You should open an issue there as well, so we can cooperate in a solution.-->
 
 **Additionals**
 
 <!--place screenshots/suggestions and other additional infos below-->
 
-> Love react-native-camera? Please consider supporting our collective: 👉 https://opencollective.com/react-native-camera/donate
+> Love react-native-camera-mlkit? Please consider supporting our collective: 👉 https://opencollective.com/react-native-camera-mlkit/donate
 > Want this issue to be resolved faster? Please consider adding a bounty to it https://issuehunt.io/repos/33218414

@@ -15,5 +15,5 @@ about: Suggest an idea for this project
 **Related Issues**
 <!--link related issues here-->
 
-> Love react-native-camera? Please consider supporting our collective: 👉  https://opencollective.com/react-native-camera/donate
+> Love react-native-camera-mlkit? Please consider supporting our collective: 👉  https://opencollective.com/react-native-camera-mlkit/donate
 > Want this feature to be resolved faster? Please consider adding a bounty to it https://issuehunt.io/repos/33218414

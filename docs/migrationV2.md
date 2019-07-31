@@ -4,7 +4,7 @@ title: Migrating from version 1.x to 2.x
 sidebar_label: Migrating from version 1.x to 2.x
 ---
 
-Version 2.x of react-native-camera moves to using Firebase MLKit for advanced features such as text/face recognition. Users can now opt into useing MLKit in their app by choosing a certain flavor of the library (Android) or selecting a desired podspec (iOS). This allows users who do not need Firebase MLKit-based features to not be forced to set up a Firebase project.
+Version 2.x of react-native-camera-mlkit moves to using Firebase MLKit for advanced features such as text/face recognition. Users can now opt into useing MLKit in their app by choosing a certain flavor of the library (Android) or selecting a desired podspec (iOS). This allows users who do not need Firebase MLKit-based features to not be forced to set up a Firebase project.
 
 ## Required steps
 
@@ -19,7 +19,7 @@ android {
   ...
   defaultConfig {
     ...
-    missingDimensionStrategy 'react-native-camera', 'general' <-- insert this line
+    missingDimensionStrategy 'react-native-camera-mlkit', 'general' <-- insert this line
   }
 }
 ```
@@ -39,7 +39,7 @@ android {
   ...
   defaultConfig {
     ...
-    missingDimensionStrategy 'react-native-camera', 'mlkit' <-- insert this line
+    missingDimensionStrategy 'react-native-camera-mlkit', 'mlkit' <-- insert this line
   }
 }
 ```
@@ -103,7 +103,7 @@ android {
 2. Check that you have selected a correct podspec in your Podfile, e.g. if you want to use Text Recognition, your Podfile should contain the following:
 
 ```
-pod 'react-native-camera', path: '../node_modules/react-native-camera', subspecs: [
+pod 'react-native-camera-mlkit', path: '../node_modules/react-native-camera-mlkit', subspecs: [
   'TextDetector'
 ]
 ```

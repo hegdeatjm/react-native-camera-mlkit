@@ -103,7 +103,7 @@ android {
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
         versionName "1.0"
-        missingDimensionStrategy 'react-native-camera', 'general'
+        missingDimensionStrategy 'react-native-camera-mlkit', 'general'
     }
     splits {
         abi {
@@ -135,7 +135,7 @@ android {
 }
 
 dependencies {
-    implementation project(':react-native-camera')
+    implementation project(':react-native-camera-mlkit')
     implementation fileTree(dir: "libs", include: ["*.jar"])
     implementation 'androidx.appcompat:appcompat:1.0.0'
     implementation "com.facebook.react:react-native:+"  // From node_modules

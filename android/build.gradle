@@ -24,14 +24,14 @@ android {
     targetSdkVersion safeExtGet('targetSdkVersion', 28)
   }
 
-  flavorDimensions "react-native-camera"
+  flavorDimensions "react-native-camera-mlkit"
 
   productFlavors {
     general {
-      dimension "react-native-camera"
+      dimension "react-native-camera-mlkit"
     }
     mlkit {
-      dimension "react-native-camera"
+      dimension "react-native-camera-mlkit"
     }
   }
 

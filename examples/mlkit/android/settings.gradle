@@ -1,5 +1,5 @@
 rootProject.name = 'mlkit'
-include ':react-native-camera'
-project(':react-native-camera').projectDir = new File(rootProject.projectDir, '../../../android')
+include ':react-native-camera-mlkit'
+project(':react-native-camera-mlkit').projectDir = new File(rootProject.projectDir, '../../../android')
 
 include ':app'

@@ -4,7 +4,7 @@ title: Upgrade gradle for Android projects
 sidebar_label: Gradle Upgrade Guide
 ---
 
-To integrate react-native-camera into your own react native project and make it work for Android, you need to edit the following files in the `android` folder under your project folder:
+To integrate react-native-camera-mlkit into your own react native project and make it work for Android, you need to edit the following files in the `android` folder under your project folder:
 
 - In the `android/gradle.properties` file:
 
@@ -90,7 +90,7 @@ android {
 ...
 
 dependencies {
-    implementation project(':react-native-camera')
+    implementation project(':react-native-camera-mlkit')
     ...
     implementation fileTree(dir: "libs", include: ["*.jar"])
     implementation 'com.android.support:appcompat-v7:26.0.1'

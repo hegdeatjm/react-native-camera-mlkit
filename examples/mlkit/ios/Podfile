@@ -24,7 +24,7 @@ target 'mlkit' do
   pod 'glog', :podspec => '../node_modules/react-native/third-party-podspecs/glog.podspec'
   pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
 
-  pod 'react-native-camera', path: '../../../', subspecs: [
+  pod 'react-native-camera-mlkit', path: '../../../', subspecs: [
     'TextDetector',
     'FaceDetectorMLKit',
     'BarcodeDetectorMLKit'

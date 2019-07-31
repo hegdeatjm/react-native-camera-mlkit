@@ -5,7 +5,7 @@ sidebar_label: Testing
 ---
 ## Jest
 
-To test a component which use RNCamera, you need to create a react-native-camera.js file inside your **mocks** folder on the root of your project with the following content:
+To test a component which use RNCamera, you need to create a react-native-camera-mlkit.js file inside your **mocks** folder on the root of your project with the following content:
 
 ```javascript
 import React from 'react';
@@ -54,7 +54,7 @@ The custom component PhotoCamera is the following:
 ```javascript
 import React from 'react';
 import { View, TouchableOpacity, StyleSheet, Dimensions } from 'react-native';
-import { RNCamera } from 'react-native-camera';
+import { RNCamera } from 'react-native-camera-mlkit';
 import Icon from 'react-native-vector-icons/FontAwesome';
 
 const styles = StyleSheet.create({

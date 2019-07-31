@@ -4,7 +4,7 @@ title: Recipes
 sidebar_label: Recipes
 ---
 
-The idea is to provide a list of useful snippets, links and resources to be used together with react-native-camera
+The idea is to provide a list of useful snippets, links and resources to be used together with react-native-camera-mlkit
 
 ## Stop Face Detection/Barcode Detection/Text Recognition
 
@@ -92,7 +92,7 @@ However we have some recipies for common zoom behaviours. If you implemented you
 ```js
 import React, { Component } from 'react';
 import { View, PanResponder, Dimensions } from 'react-native';
-import { RNCamera } from 'react-native-camera';
+import { RNCamera } from 'react-native-camera-mlkit';
 
 // ZoomView
 class ZoomView extends Component {

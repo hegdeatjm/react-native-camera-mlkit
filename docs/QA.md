@@ -59,7 +59,7 @@ To fix this issue, modify your project's `android/app/build.gradle` as follows:
 
 ```Gradle
 dependencies {
-    compile (project(':react-native-camera')) {
+    compile (project(':react-native-camera-mlkit')) {
         exclude group: "com.android.support"
 
         // uncomment this if also com.google.android.gms:play-services-vision versions are conflicting
@@ -93,7 +93,7 @@ The strategy is:
 ```javascript
 import React, { PureComponent } from 'react';
 import { Button, ImageEditor } from 'react-native';
-import { RNCamera } from 'react-native-camera';
+import { RNCamera } from 'react-native-camera-mlkit';
 
 class CameraComponent extends PureComponent {
   // ...

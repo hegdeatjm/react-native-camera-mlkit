@@ -113,28 +113,28 @@ PODS:
   - Protobuf (3.7.0)
   - React (0.59.1):
     - React/Core (= 0.59.1)
-  - react-native-camera/BarcodeDetectorMLKit (2.2.2):
+  - react-native-camera-mlkit/BarcodeDetectorMLKit (2.2.2):
     - Firebase/MLVision
     - Firebase/MLVisionBarcodeModel
     - React
-    - react-native-camera/RCT
-    - react-native-camera/RN
-  - react-native-camera/FaceDetectorMLKit (2.2.2):
+    - react-native-camera-mlkit/RCT
+    - react-native-camera-mlkit/RN
+  - react-native-camera-mlkit/FaceDetectorMLKit (2.2.2):
     - Firebase/MLVision
     - Firebase/MLVisionFaceModel
     - React
-    - react-native-camera/RCT
-    - react-native-camera/RN
-  - react-native-camera/RCT (2.2.2):
+    - react-native-camera-mlkit/RCT
+    - react-native-camera-mlkit/RN
+  - react-native-camera-mlkit/RCT (2.2.2):
     - React
-  - react-native-camera/RN (2.2.2):
+  - react-native-camera-mlkit/RN (2.2.2):
     - React
-  - react-native-camera/TextDetector (2.2.2):
+  - react-native-camera-mlkit/TextDetector (2.2.2):
     - Firebase/MLVision
     - Firebase/MLVisionTextModel
     - React
-    - react-native-camera/RCT
-    - react-native-camera/RN
+    - react-native-camera-mlkit/RCT
+    - react-native-camera-mlkit/RN
   - React/Core (0.59.1):
     - yoga (= 0.59.1.React)
   - React/CxxBridge (0.59.1):
@@ -182,9 +182,9 @@ DEPENDENCIES:
   - Firebase/Core
   - Folly (from `../node_modules/react-native/third-party-podspecs/Folly.podspec`)
   - glog (from `../node_modules/react-native/third-party-podspecs/glog.podspec`)
-  - react-native-camera/BarcodeDetectorMLKit (from `../../../`)
-  - react-native-camera/FaceDetectorMLKit (from `../../../`)
-  - react-native-camera/TextDetector (from `../../../`)
+  - react-native-camera-mlkit/BarcodeDetectorMLKit (from `../../../`)
+  - react-native-camera-mlkit/FaceDetectorMLKit (from `../../../`)
+  - react-native-camera-mlkit/TextDetector (from `../../../`)
   - React/Core (from `../node_modules/react-native`)
   - React/CxxBridge (from `../node_modules/react-native`)
   - React/DevSupport (from `../node_modules/react-native`)
@@ -224,7 +224,7 @@ EXTERNAL SOURCES:
     :podspec: "../node_modules/react-native/third-party-podspecs/glog.podspec"
   React:
     :path: "../node_modules/react-native"
-  react-native-camera:
+  react-native-camera-mlkit:
     :path: "../../../"
   yoga:
     :path: "../node_modules/react-native/ReactCommon/yoga"
@@ -252,7 +252,7 @@ SPEC CHECKSUMS:
   nanopb: 2901f78ea1b7b4015c860c2fdd1ea2fee1a18d48
   Protobuf: 7a877b7f3e5964e3fce995e2eb323dbc6831bb5a
   React: 1d605e098d69bdf08960787f3446f0a9dc2e2ccf
-  react-native-camera: 9c50d7def800895e7991ccda6203929553ceec9c
+  react-native-camera-mlkit: 9c50d7def800895e7991ccda6203929553ceec9c
   yoga: 128daf064cacaede0c3bb27424b6b4c71052e6cd
 
 PODFILE CHECKSUM: ea5c4e2c8f2c607fe7c1cd69dc26067aef6c2ce1

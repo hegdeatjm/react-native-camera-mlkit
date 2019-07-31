@@ -108,16 +108,16 @@ class Index extends React.Component {
       </Block>
     );
 
-    const backersList = Array(10).fill('x').map( (bk, i) => `<a href="https://opencollective.com/react-native-camera/backer/${i}/website" target="_blank"><img src="https://opencollective.com/react-native-camera/backer/${i}/avatar.svg"></a>`)
-    const sponsorsList = Array(10).fill('x').map( (bk, i) => `<a href="https://opencollective.com/react-native-camera/sponsor/${i}/website" target="_blank"><img src="https://opencollective.com/react-native-camera/sponsor/${i}/avatar.svg"></a>`)
+    const backersList = Array(10).fill('x').map( (bk, i) => `<a href="https://opencollective.com/react-native-camera-mlkit/backer/${i}/website" target="_blank"><img src="https://opencollective.com/react-native-camera-mlkit/backer/${i}/avatar.svg"></a>`)
+    const sponsorsList = Array(10).fill('x').map( (bk, i) => `<a href="https://opencollective.com/react-native-camera-mlkit/sponsor/${i}/website" target="_blank"><img src="https://opencollective.com/react-native-camera-mlkit/sponsor/${i}/avatar.svg"></a>`)
 
     const Backers = () => (
       <Block id="collective" background="light">
         {[
           {
             content: `**Backers** 
-            \n\nSupport us with a monthly donation and help us continue our activities. [[**Become a backer**](https://opencollective.com/react-native-camera#backer)] \n\n\n ${backersList.join("")}
-            \n\n\n**Sponsors** \n\nBecome a sponsor and get your logo on our README on Github with a link to your site. [[**Become a sponsor**](https://opencollective.com/react-native-camera#sponsor)] \n\n\n ${sponsorsList.join("")}
+            \n\nSupport us with a monthly donation and help us continue our activities. [[**Become a backer**](https://opencollective.com/react-native-camera-mlkit#backer)] \n\n\n ${backersList.join("")}
+            \n\n\n**Sponsors** \n\nBecome a sponsor and get your logo on our README on Github with a link to your site. [[**Become a sponsor**](https://opencollective.com/react-native-camera-mlkit#sponsor)] \n\n\n ${sponsorsList.join("")}
             `,
             imageAlign: 'center',
             title: 'Open Collective',

@@ -1,6 +1,6 @@
 # React Native Camera Basic Example
 
-An example project demonstrating the use of react-native-camera.
+An example project demonstrating the use of react-native-camera-mlkit.
 
 ### Features
 
@@ -17,12 +17,12 @@ run `yarn install`
 * Pull Requests are welcome, if you open a pull request we will do our best to get to it in a timely manner
 * Pull Request Reviews and even more welcome! we need help testing, reviewing, and updating open PRs
 * If you are interested in contributing more actively, please contact me (same username on Twitter, Facebook, etc.) Thanks!
-* If you want to help us coding, join Expo slack https://slack.expo.io/, so we can chat over there. (#react-native-camera)
+* If you want to help us coding, join Expo slack https://slack.expo.io/, so we can chat over there. (#react-native-camera-mlkit)
 
 ### FAQ
 
-## Why is `react-native-camera` not listed as a dependency in `package.json`?
+## Why is `react-native-camera-mlkit` not listed as a dependency in `package.json`?
 
-`react-native` uses `metro` for dependency resolution. In order to not recursively install this example into the `node_modules` of this example we use `rn-cli.config.js` to resolve `react-native-camera`. This also allows a quicker iteration when developing (without having to `yarn install` after every single change in `react-native-camera`).
+`react-native` uses `metro` for dependency resolution. In order to not recursively install this example into the `node_modules` of this example we use `rn-cli.config.js` to resolve `react-native-camera-mlkit`. This also allows a quicker iteration when developing (without having to `yarn install` after every single change in `react-native-camera-mlkit`).
 
-Also the Header Search Paths in `ios/RNCameraExample.xcodeproj/project.pbxproj` are changed to fit the `react-native-camera` root directory.
+Also the Header Search Paths in `ios/RNCameraExample.xcodeproj/project.pbxproj` are changed to fit the `react-native-camera-mlkit` root directory.

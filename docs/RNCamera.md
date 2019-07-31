@@ -6,14 +6,14 @@ sidebar_label: RNCamera
 
 ## Usage
 
-All you need is to `import` `{ RNCamera }` from the `react-native-camera` module and then use the
+All you need is to `import` `{ RNCamera }` from the `react-native-camera-mlkit` module and then use the
 `<RNCamera/>` tag.
 
 ```javascript
 'use strict';
 import React, { PureComponent } from 'react';
 import { AppRegistry, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
-import { RNCamera } from 'react-native-camera';
+import { RNCamera } from 'react-native-camera-mlkit';
 
 class ExampleApp extends PureComponent {
   render() {
@@ -93,7 +93,7 @@ AppRegistry.registerComponent('ExampleApp', () => ExampleApp);
 'use strict';
 import React, { PureComponent } from 'react';
 import { AppRegistry, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
-import { RNCamera } from 'react-native-camera';
+import { RNCamera } from 'react-native-camera-mlkit';
 
 const PendingView = () => (
   <View
@@ -633,62 +633,62 @@ To learn about how to test components which uses `RNCamera` check its [documenta
 
 ## Examples
 
-To see more of the `RNCamera` in action you can check out the [RNCamera examples directory](https://github.com/react-native-community/react-native-camera/tree/master/examples).
-Firebase MLKit-base features (such as Text, Face and Barcode detection) can be found in the [mlkit](https://github.com/react-native-community/react-native-camera/tree/master/examples/mlkit) example.
+To see more of the `RNCamera` in action you can check out the [RNCamera examples directory](https://github.com/react-native-community/react-native-camera-mlkit/tree/master/examples).
+Firebase MLKit-base features (such as Text, Face and Barcode detection) can be found in the [mlkit](https://github.com/react-native-community/react-native-camera-mlkit/tree/master/examples/mlkit) example.
 
 ## Open Collective
 
-We are just beginning a funding campaign for react-native-camera. Contributions are greatly appreciated. When we gain more than \$250 we will begin distributing funds to core maintainers in a fully transparent manner. Feedback for this process is welcomed, we will continue to evolve the strategy as we grow and learn more.
+We are just beginning a funding campaign for react-native-camera-mlkit. Contributions are greatly appreciated. When we gain more than \$250 we will begin distributing funds to core maintainers in a fully transparent manner. Feedback for this process is welcomed, we will continue to evolve the strategy as we grow and learn more.
 
 ### Backers
 
-Support us with a monthly donation and help us continue our activities. [[Become a backer](https://opencollective.com/react-native-camera#backer)]
+Support us with a monthly donation and help us continue our activities. [[Become a backer](https://opencollective.com/react-native-camera-mlkit#backer)]
 
-<a href="https://opencollective.com/react-native-camera/backer/0/website" target="_blank"><img src="https://opencollective.com/react-native-camera/backer/0/avatar.svg"></a>
-<a href="https://opencollective.com/react-native-camera/backer/1/website" target="_blank"><img src="https://opencollective.com/react-native-camera/backer/1/avatar.svg"></a>
-<a href="https://opencollective.com/react-native-camera/backer/2/website" target="_blank"><img src="https://opencollective.com/react-native-camera/backer/2/avatar.svg"></a>
-<a href="https://opencollective.com/react-native-camera/backer/3/website" target="_blank"><img src="https://opencollective.com/react-native-camera/backer/3/avatar.svg"></a>
-<a href="https://opencollective.com/react-native-camera/backer/4/website" target="_blank"><img src="https://opencollective.com/react-native-camera/backer/4/avatar.svg"></a>
-<a href="https://opencollective.com/react-native-camera/backer/5/website" target="_blank"><img src="https://opencollective.com/react-native-camera/backer/5/avatar.svg"></a>
-<a href="https://opencollective.com/react-native-camera/backer/6/website" target="_blank"><img src="https://opencollective.com/react-native-camera/backer/6/avatar.svg"></a>
-<a href="https://opencollective.com/react-native-camera/backer/7/website" target="_blank"><img src="https://opencollective.com/react-native-camera/backer/7/avatar.svg"></a>
-<a href="https://opencollective.com/react-native-camera/backer/8/website" target="_blank"><img src="https://opencollective.com/react-native-camera/backer/8/avatar.svg"></a>
-<a href="https://opencollective.com/react-native-camera/backer/9/website" target="_blank"><img src="https://opencollective.com/react-native-camera/backer/9/avatar.svg"></a>
-<a href="https://opencollective.com/react-native-camera/backer/10/website" target="_blank"><img src="https://opencollective.com/react-native-camera/backer/10/avatar.svg"></a>
-<a href="https://opencollective.com/react-native-camera/backer/11/website" target="_blank"><img src="https://opencollective.com/react-native-camera/backer/11/avatar.svg"></a>
-<a href="https://opencollective.com/react-native-camera/backer/12/website" target="_blank"><img src="https://opencollective.com/react-native-camera/backer/12/avatar.svg"></a>
-<a href="https://opencollective.com/react-native-camera/backer/13/website" target="_blank"><img src="https://opencollective.com/react-native-camera/backer/13/avatar.svg"></a>
-<a href="https://opencollective.com/react-native-camera/backer/14/website" target="_blank"><img src="https://opencollective.com/react-native-camera/backer/14/avatar.svg"></a>
-<a href="https://opencollective.com/react-native-camera/backer/15/website" target="_blank"><img src="https://opencollective.com/react-native-camera/backer/15/avatar.svg"></a>
-<a href="https://opencollective.com/react-native-camera/backer/16/website" target="_blank"><img src="https://opencollective.com/react-native-camera/backer/16/avatar.svg"></a>
-<a href="https://opencollective.com/react-native-camera/backer/17/website" target="_blank"><img src="https://opencollective.com/react-native-camera/backer/17/avatar.svg"></a>
-<a href="https://opencollective.com/react-native-camera/backer/18/website" target="_blank"><img src="https://opencollective.com/react-native-camera/backer/18/avatar.svg"></a>
-<a href="https://opencollective.com/react-native-camera/backer/19/website" target="_blank"><img src="https://opencollective.com/react-native-camera/backer/19/avatar.svg"></a>
-<a href="https://opencollective.com/react-native-camera/backer/20/website" target="_blank"><img src="https://opencollective.com/react-native-camera/backer/20/avatar.svg"></a>
-<a href="https://opencollective.com/react-native-camera/backer/21/website" target="_blank"><img src="https://opencollective.com/react-native-camera/backer/21/avatar.svg"></a>
-<a href="https://opencollective.com/react-native-camera/backer/22/website" target="_blank"><img src="https://opencollective.com/react-native-camera/backer/22/avatar.svg"></a>
-<a href="https://opencollective.com/react-native-camera/backer/23/website" target="_blank"><img src="https://opencollective.com/react-native-camera/backer/23/avatar.svg"></a>
-<a href="https://opencollective.com/react-native-camera/backer/24/website" target="_blank"><img src="https://opencollective.com/react-native-camera/backer/24/avatar.svg"></a>
-<a href="https://opencollective.com/react-native-camera/backer/25/website" target="_blank"><img src="https://opencollective.com/react-native-camera/backer/25/avatar.svg"></a>
-<a href="https://opencollective.com/react-native-camera/backer/26/website" target="_blank"><img src="https://opencollective.com/react-native-camera/backer/26/avatar.svg"></a>
-<a href="https://opencollective.com/react-native-camera/backer/27/website" target="_blank"><img src="https://opencollective.com/react-native-camera/backer/27/avatar.svg"></a>
-<a href="https://opencollective.com/react-native-camera/backer/28/website" target="_blank"><img src="https://opencollective.com/react-native-camera/backer/28/avatar.svg"></a>
-<a href="https://opencollective.com/react-native-camera/backer/29/website" target="_blank"><img src="https://opencollective.com/react-native-camera/backer/29/avatar.svg"></a>
+<a href="https://opencollective.com/react-native-camera-mlkit/backer/0/website" target="_blank"><img src="https://opencollective.com/react-native-camera-mlkit/backer/0/avatar.svg"></a>
+<a href="https://opencollective.com/react-native-camera-mlkit/backer/1/website" target="_blank"><img src="https://opencollective.com/react-native-camera-mlkit/backer/1/avatar.svg"></a>
+<a href="https://opencollective.com/react-native-camera-mlkit/backer/2/website" target="_blank"><img src="https://opencollective.com/react-native-camera-mlkit/backer/2/avatar.svg"></a>
+<a href="https://opencollective.com/react-native-camera-mlkit/backer/3/website" target="_blank"><img src="https://opencollective.com/react-native-camera-mlkit/backer/3/avatar.svg"></a>
+<a href="https://opencollective.com/react-native-camera-mlkit/backer/4/website" target="_blank"><img src="https://opencollective.com/react-native-camera-mlkit/backer/4/avatar.svg"></a>
+<a href="https://opencollective.com/react-native-camera-mlkit/backer/5/website" target="_blank"><img src="https://opencollective.com/react-native-camera-mlkit/backer/5/avatar.svg"></a>
+<a href="https://opencollective.com/react-native-camera-mlkit/backer/6/website" target="_blank"><img src="https://opencollective.com/react-native-camera-mlkit/backer/6/avatar.svg"></a>
+<a href="https://opencollective.com/react-native-camera-mlkit/backer/7/website" target="_blank"><img src="https://opencollective.com/react-native-camera-mlkit/backer/7/avatar.svg"></a>
+<a href="https://opencollective.com/react-native-camera-mlkit/backer/8/website" target="_blank"><img src="https://opencollective.com/react-native-camera-mlkit/backer/8/avatar.svg"></a>
+<a href="https://opencollective.com/react-native-camera-mlkit/backer/9/website" target="_blank"><img src="https://opencollective.com/react-native-camera-mlkit/backer/9/avatar.svg"></a>
+<a href="https://opencollective.com/react-native-camera-mlkit/backer/10/website" target="_blank"><img src="https://opencollective.com/react-native-camera-mlkit/backer/10/avatar.svg"></a>
+<a href="https://opencollective.com/react-native-camera-mlkit/backer/11/website" target="_blank"><img src="https://opencollective.com/react-native-camera-mlkit/backer/11/avatar.svg"></a>
+<a href="https://opencollective.com/react-native-camera-mlkit/backer/12/website" target="_blank"><img src="https://opencollective.com/react-native-camera-mlkit/backer/12/avatar.svg"></a>
+<a href="https://opencollective.com/react-native-camera-mlkit/backer/13/website" target="_blank"><img src="https://opencollective.com/react-native-camera-mlkit/backer/13/avatar.svg"></a>
+<a href="https://opencollective.com/react-native-camera-mlkit/backer/14/website" target="_blank"><img src="https://opencollective.com/react-native-camera-mlkit/backer/14/avatar.svg"></a>
+<a href="https://opencollective.com/react-native-camera-mlkit/backer/15/website" target="_blank"><img src="https://opencollective.com/react-native-camera-mlkit/backer/15/avatar.svg"></a>
+<a href="https://opencollective.com/react-native-camera-mlkit/backer/16/website" target="_blank"><img src="https://opencollective.com/react-native-camera-mlkit/backer/16/avatar.svg"></a>
+<a href="https://opencollective.com/react-native-camera-mlkit/backer/17/website" target="_blank"><img src="https://opencollective.com/react-native-camera-mlkit/backer/17/avatar.svg"></a>
+<a href="https://opencollective.com/react-native-camera-mlkit/backer/18/website" target="_blank"><img src="https://opencollective.com/react-native-camera-mlkit/backer/18/avatar.svg"></a>
+<a href="https://opencollective.com/react-native-camera-mlkit/backer/19/website" target="_blank"><img src="https://opencollective.com/react-native-camera-mlkit/backer/19/avatar.svg"></a>
+<a href="https://opencollective.com/react-native-camera-mlkit/backer/20/website" target="_blank"><img src="https://opencollective.com/react-native-camera-mlkit/backer/20/avatar.svg"></a>
+<a href="https://opencollective.com/react-native-camera-mlkit/backer/21/website" target="_blank"><img src="https://opencollective.com/react-native-camera-mlkit/backer/21/avatar.svg"></a>
+<a href="https://opencollective.com/react-native-camera-mlkit/backer/22/website" target="_blank"><img src="https://opencollective.com/react-native-camera-mlkit/backer/22/avatar.svg"></a>
+<a href="https://opencollective.com/react-native-camera-mlkit/backer/23/website" target="_blank"><img src="https://opencollective.com/react-native-camera-mlkit/backer/23/avatar.svg"></a>
+<a href="https://opencollective.com/react-native-camera-mlkit/backer/24/website" target="_blank"><img src="https://opencollective.com/react-native-camera-mlkit/backer/24/avatar.svg"></a>
+<a href="https://opencollective.com/react-native-camera-mlkit/backer/25/website" target="_blank"><img src="https://opencollective.com/react-native-camera-mlkit/backer/25/avatar.svg"></a>
+<a href="https://opencollective.com/react-native-camera-mlkit/backer/26/website" target="_blank"><img src="https://opencollective.com/react-native-camera-mlkit/backer/26/avatar.svg"></a>
+<a href="https://opencollective.com/react-native-camera-mlkit/backer/27/website" target="_blank"><img src="https://opencollective.com/react-native-camera-mlkit/backer/27/avatar.svg"></a>
+<a href="https://opencollective.com/react-native-camera-mlkit/backer/28/website" target="_blank"><img src="https://opencollective.com/react-native-camera-mlkit/backer/28/avatar.svg"></a>
+<a href="https://opencollective.com/react-native-camera-mlkit/backer/29/website" target="_blank"><img src="https://opencollective.com/react-native-camera-mlkit/backer/29/avatar.svg"></a>
 
 ### Sponsors
 
-Become a sponsor and get your logo on our README on Github with a link to your site. [[Become a sponsor](https://opencollective.com/react-native-camera#sponsor)]
+Become a sponsor and get your logo on our README on Github with a link to your site. [[Become a sponsor](https://opencollective.com/react-native-camera-mlkit#sponsor)]
 
-<a href="https://opencollective.com/react-native-camera/sponsor/0/website" target="_blank"><img src="https://opencollective.com/react-native-camera/sponsor/0/avatar.svg"></a>
-<a href="https://opencollective.com/react-native-camera/sponsor/1/website" target="_blank"><img src="https://opencollective.com/react-native-camera/sponsor/1/avatar.svg"></a>
-<a href="https://opencollective.com/react-native-camera/sponsor/2/website" target="_blank"><img src="https://opencollective.com/react-native-camera/sponsor/2/avatar.svg"></a>
-<a href="https://opencollective.com/react-native-camera/sponsor/3/website" target="_blank"><img src="https://opencollective.com/react-native-camera/sponsor/3/avatar.svg"></a>
-<a href="https://opencollective.com/react-native-camera/sponsor/4/website" target="_blank"><img src="https://opencollective.com/react-native-camera/sponsor/4/avatar.svg"></a>
-<a href="https://opencollective.com/react-native-camera/sponsor/5/website" target="_blank"><img src="https://opencollective.com/react-native-camera/sponsor/5/avatar.svg"></a>
-<a href="https://opencollective.com/react-native-camera/sponsor/6/website" target="_blank"><img src="https://opencollective.com/react-native-camera/sponsor/6/avatar.svg"></a>
-<a href="https://opencollective.com/react-native-camera/sponsor/7/website" target="_blank"><img src="https://opencollective.com/react-native-camera/sponsor/7/avatar.svg"></a>
-<a href="https://opencollective.com/react-native-camera/sponsor/8/website" target="_blank"><img src="https://opencollective.com/react-native-camera/sponsor/8/avatar.svg"></a>
-<a href="https://opencollective.com/react-native-camera/sponsor/9/website" target="_blank"><img src="https://opencollective.com/react-native-camera/sponsor/9/avatar.svg"></a>
+<a href="https://opencollective.com/react-native-camera-mlkit/sponsor/0/website" target="_blank"><img src="https://opencollective.com/react-native-camera-mlkit/sponsor/0/avatar.svg"></a>
+<a href="https://opencollective.com/react-native-camera-mlkit/sponsor/1/website" target="_blank"><img src="https://opencollective.com/react-native-camera-mlkit/sponsor/1/avatar.svg"></a>
+<a href="https://opencollective.com/react-native-camera-mlkit/sponsor/2/website" target="_blank"><img src="https://opencollective.com/react-native-camera-mlkit/sponsor/2/avatar.svg"></a>
+<a href="https://opencollective.com/react-native-camera-mlkit/sponsor/3/website" target="_blank"><img src="https://opencollective.com/react-native-camera-mlkit/sponsor/3/avatar.svg"></a>
+<a href="https://opencollective.com/react-native-camera-mlkit/sponsor/4/website" target="_blank"><img src="https://opencollective.com/react-native-camera-mlkit/sponsor/4/avatar.svg"></a>
+<a href="https://opencollective.com/react-native-camera-mlkit/sponsor/5/website" target="_blank"><img src="https://opencollective.com/react-native-camera-mlkit/sponsor/5/avatar.svg"></a>
+<a href="https://opencollective.com/react-native-camera-mlkit/sponsor/6/website" target="_blank"><img src="https://opencollective.com/react-native-camera-mlkit/sponsor/6/avatar.svg"></a>
+<a href="https://opencollective.com/react-native-camera-mlkit/sponsor/7/website" target="_blank"><img src="https://opencollective.com/react-native-camera-mlkit/sponsor/7/avatar.svg"></a>
+<a href="https://opencollective.com/react-native-camera-mlkit/sponsor/8/website" target="_blank"><img src="https://opencollective.com/react-native-camera-mlkit/sponsor/8/avatar.svg"></a>
+<a href="https://opencollective.com/react-native-camera-mlkit/sponsor/9/website" target="_blank"><img src="https://opencollective.com/react-native-camera-mlkit/sponsor/9/avatar.svg"></a>
 
 ---
 

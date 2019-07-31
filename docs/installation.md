@@ -33,17 +33,17 @@ title: Installation
 
 ## Mostly automatic install with react-native
 
-1. `npm install react-native-camera --save`
-2. `react-native link react-native-camera`
+1. `npm install react-native-camera-mlkit --save`
+2. `react-native link react-native-camera-mlkit`
    _To install it with Windows, see manual install below_
 
 ## Mostly automatic install with CocoaPods
 
-1. `npm install react-native-camera --save`
+1. `npm install react-native-camera-mlkit --save`
 2. Add the plugin dependency to your Podfile, pointing at the path where NPM installed it:
 
 ```obj-c
-pod 'react-native-camera', path: '../node_modules/react-native-camera'
+pod 'react-native-camera-mlkit', path: '../node_modules/react-native-camera-mlkit'
 ```
 
 3. Run `pod install`
@@ -68,7 +68,7 @@ target 'yourTargetName' do
   pod 'yoga', :path => '../node_modules/react-native/ReactCommon/yoga'
 
   # Third party deps podspec link
-  pod 'react-native-camera', path: '../node_modules/react-native-camera'
+  pod 'react-native-camera-mlkit', path: '../node_modules/react-native-camera-mlkit'
 
 end
 
@@ -85,9 +85,9 @@ end
 
 ## iOS
 
-1. `npm install react-native-camera --save`
+1. `npm install react-native-camera-mlkit --save`
 2. In XCode, in the project navigator, right click `Libraries` ➜ `Add Files to [your project's name]`
-3. Go to `node_modules` ➜ `react-native-camera` and add `RNCamera.xcodeproj`
+3. Go to `node_modules` ➜ `react-native-camera-mlkit` and add `RNCamera.xcodeproj`
 4. Expand the `RNCamera.xcodeproj` ➜ `Products` folder
 5. In XCode, in the project navigator, select your project. Add `libRNCamera.a` to your project's `Build Phases` ➜ `Link Binary With Libraries`
 6. Click `RNCamera.xcodeproj` in the project navigator and go the `Build Settings` tab. Make sure 'All' is toggled on (instead of 'Basic'). In the `Search Paths` section, look for `Header Search Paths` and make sure it contains both `$(SRCROOT)/../../react-native/React` and `$(SRCROOT)/../../../React` - mark both as `recursive`.
@@ -100,17 +100,17 @@ _Note:_ Installing react-native-firebase package is NOT necessary.
 
 ### Modifying Podfile
 
-Modify the dependency towards `react-native-camera` in your
+Modify the dependency towards `react-native-camera-mlkit` in your
 `Podfile`, from
 
 ```
-pod 'react-native-camera', path: '../node_modules/react-native-camera'
+pod 'react-native-camera-mlkit', path: '../node_modules/react-native-camera-mlkit'
 ```
 
 to (for Face Detection)
 
 ```
-pod 'react-native-camera', path: '../node_modules/react-native-camera', subspecs: [
+pod 'react-native-camera-mlkit', path: '../node_modules/react-native-camera-mlkit', subspecs: [
   'FaceDetectorMLKit'
 ]
 ```
@@ -118,7 +118,7 @@ pod 'react-native-camera', path: '../node_modules/react-native-camera', subspecs
 or to (for Text Recognition)
 
 ```
-pod 'react-native-camera', path: '../node_modules/react-native-camera', subspecs: [
+pod 'react-native-camera-mlkit', path: '../node_modules/react-native-camera-mlkit', subspecs: [
   'TextDetector'
 ]
 ```
@@ -126,7 +126,7 @@ pod 'react-native-camera', path: '../node_modules/react-native-camera', subspecs
 or to (for Barcode Recognition)
 
 ```
-pod 'react-native-camera', path: '../node_modules/react-native-camera', subspecs: [
+pod 'react-native-camera-mlkit', path: '../node_modules/react-native-camera-mlkit', subspecs: [
   'BarcodeDetectorMLKit'
 ]
 ```
@@ -134,7 +134,7 @@ pod 'react-native-camera', path: '../node_modules/react-native-camera', subspecs
 or to (all possible detections)
 
 ```
-pod 'react-native-camera', path: '../node_modules/react-native-camera', subspecs: [
+pod 'react-native-camera-mlkit', path: '../node_modules/react-native-camera-mlkit', subspecs: [
   'TextDetector',
   'FaceDetectorMLKit',
   'BarcodeDetectorMLKit'
@@ -168,7 +168,7 @@ In short, you would need to
 
 ### Android
 
-1. `npm install react-native-camera --save`
+1. `npm install react-native-camera-mlkit --save`
 2. Open up `android/app/src/main/java/[...]/MainApplication.java`
 
 - Add `import org.reactnative.camera.RNCameraPackage;` to the imports at the top of the file
@@ -177,8 +177,8 @@ In short, you would need to
 3. Append the following lines to `android/settings.gradle`:
 
    ```gradle
-   include ':react-native-camera'
-   project(':react-native-camera').projectDir = new File(rootProject.projectDir, 	'../node_modules/react-native-camera/android')
+   include ':react-native-camera-mlkit'
+   project(':react-native-camera-mlkit').projectDir = new File(rootProject.projectDir, 	'../node_modules/react-native-camera-mlkit/android')
    ```
 
 4. Insert the following lines in `android/app/build.gradle`:
@@ -186,7 +186,7 @@ In short, you would need to
 inside the dependencies block:
 
     ```gradle
-    implementation project(':react-native-camera')
+    implementation project(':react-native-camera-mlkit')
     ```
 
 inside defaultConfig block insert either:
@@ -196,7 +196,7 @@ android {
   ...
   defaultConfig {
     ...
-    missingDimensionStrategy 'react-native-camera', 'general' <-- insert this line
+    missingDimensionStrategy 'react-native-camera-mlkit', 'general' <-- insert this line
   }
 }
 ```
@@ -208,7 +208,7 @@ android {
   ...
   defaultConfig {
     ...
-    missingDimensionStrategy 'react-native-camera', 'mlkit' <-- insert this line
+    missingDimensionStrategy 'react-native-camera-mlkit', 'mlkit' <-- insert this line
   }
 }
 ```
@@ -300,7 +300,7 @@ ext {
 }
 ```
 
-The above settings in the ReactNative project over-rides the values present in the `react-native-camera`
+The above settings in the ReactNative project over-rides the values present in the `react-native-camera-mlkit`
 module. For your reference below is the `android/build.gradle` file of the module.
 
 ```gradle
@@ -333,14 +333,14 @@ android {
     targetSdkVersion safeExtGet('targetSdkVersion', 28)
   }
 
-  flavorDimensions "react-native-camera"
+  flavorDimensions "react-native-camera-mlkit"
 
   productFlavors {
     general {
-      dimension "react-native-camera"
+      dimension "react-native-camera-mlkit"
     }
     mlkit {
-      dimension "react-native-camera"
+      dimension "react-native-camera-mlkit"
     }
   }
 
@@ -405,7 +405,7 @@ ext {
 
 ### Windows
 
-1. `npm install react-native-camera --save`
+1. `npm install react-native-camera-mlkit --save`
 2. Link the library as described here: [react-native-windows / LinkingLibrariesWindows.md](https://github.com/microsoft/react-native-windows/blob/master/current/docs/LinkingLibrariesWindows.md)
    For the last step of this guide, you have to add the following things to your `MainReactNativeHost.cs`:
 
