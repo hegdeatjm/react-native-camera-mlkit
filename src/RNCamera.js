@@ -64,7 +64,7 @@ const requestPermissions = async (
       } else if (__DEV__) {
         // eslint-disable-next-line no-console
         console.warn(
-          `The 'captureAudio' property set on RNCamera instance but 'RECORD_AUDIO' permissions not defined in the applications 'AndroidManifest.xml'. ` +
+          `The 'captureAudio' property set on RNMLKITCamera instance but 'RECORD_AUDIO' permissions not defined in the applications 'AndroidManifest.xml'. ` +
             `If you want to record audio you will have to add '<uses-permission android:name="android.permission.RECORD_AUDIO"/>' to your 'AndroidManifest.xml'. ` +
             `Otherwise you should set the 'captureAudio' property on the component instance to 'false'.`,
         );
@@ -735,7 +735,7 @@ export default class Camera extends React.Component<PropsType, StateType> {
     if (this.state.isAuthorized || this.hasFaCC()) {
       return (
         <View style={style}>
-          <RNCamera
+          <RNMLKITCamera
             {...nativeProps}
             style={StyleSheet.absoluteFill}
             ref={this._setReference}
@@ -797,7 +797,7 @@ export default class Camera extends React.Component<PropsType, StateType> {
 
 export const Constants = Camera.Constants;
 
-const RNCamera = requireNativeComponent('RNCamera', Camera, {
+const RNMLKITCamera = requireNativeComponent('RNMLKITCamera', Camera, {
   nativeOnly: {
     accessibilityComponentType: true,
     accessibilityLabel: true,
