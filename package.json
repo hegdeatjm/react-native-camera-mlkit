@@ -1,5 +1,5 @@
 {
-  "name": "react-native-camera-mlkit",
+  "name": "rn-camera-mlkit",
   "description": "A Camera component for React Native. Also reads barcodes.",
   "version": "3.0.0",
   "author": "Lochlan Wansbrough <lochie@live.com> (http://lwansbrough.com)",
